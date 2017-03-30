@@ -1,10 +1,10 @@
-#Sudoku JS
+# Sudoku JS
 
 [Demo](http://emrahs.duckdns.org/sudokujs)
 
 A sudoku puzzle solver, implemented using AI constraint satisfaction algorithm.
 
-[ More about constraint satisfaction algorithm] (https://en.wikipedia.org/wiki/Constraint_satisfaction)
+[More about constraint satisfaction algorithm](https://en.wikipedia.org/wiki/Constraint_satisfaction)
 
 Developed with [knockoutjs](http://www.knockoutjs.com)
 
