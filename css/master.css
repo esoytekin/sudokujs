@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+}
+
+a{
+  padding: 7px 20px !important;
+}
+.dkHeader{
+    display: block;
+    height: 8%;
+}
+#dkMain{
+  height: 84%;
+}
+.square{
+    margin: 0px auto;
+    width: 497px;
+    height: 497px;
+    border: solid 1px;
+
+}
+
+#container {
+ height: 100vh; 
+ display: block;
+ margin: 0px;
+}
+#sdBody{
+  width: 60%; margin: 0px auto; height: 93%; display: block;
+}
+.fibredark{
+    background: radial-gradient(black 15%,transparent 16%) 0 0,
+                radial-gradient(black 15%,transparent 16%) 8px 8px, 
+                radial-gradient(rgba(255,255,255,.1) 15%,transparent 20%) 0 1px, 
+                radial-gradient(rgba(255,255,255,.1) 15%,transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+
+
+
+table.game{
+  margin:1em auto;
+}
+table.game td {
+  height:50px;
+  width:50px;
+  border:1px dashed;
+  
+  text-align:center;
+  cursor: pointer;
+  border-color: #bbb;
+}
+table.game td:hover {
+   background-color: #ddd;
+}
+table.game td.disabled {
+    cursor: default;
+    background-color: rgba(215, 255, 223, 1);
+}
+table.game td.disabled:hover{
+    /*background-color: transparent;*/
+    background-color: rgba(215, 255, 223, 1);
+}
+table.game td:first-child {
+  border-left:solid;
+  border-color: #bbb;
+}
+table.game td:nth-child(3n) {
+  border-right:solid ;
+  border-color: #bbb;
+}
+table.game tr:first-child {
+  border-top:solid;
+  border-color: #bbb;
+}
+table.game tr:nth-child(3n) td {
+  border-bottom:solid ;
+  border-color: #bbb;
+}
